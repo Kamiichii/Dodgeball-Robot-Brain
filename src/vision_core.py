@@ -4,7 +4,7 @@ import serial
 import threading
 from collections import deque
 from ultralytics import YOLO
-from kalman_tracker import DodgeballKalman
+from src.kalman_tracker import DodgeballKalman
 
 class ThreadedCamera:
     def __init__(self, src=0):

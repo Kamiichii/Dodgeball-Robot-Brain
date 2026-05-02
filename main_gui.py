@@ -3,7 +3,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 # Import the detached Backend Engine
-from vision_core import VisionCore
+from src.vision_core import VisionCore
 
 class DodgeballGUI:
     def __init__(self, root):
